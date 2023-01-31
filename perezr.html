@@ -1,48 +1,104 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Project 1, Page 2</title>
-<link rel="stylesheet" href="style.css">
+<title>Perez Page</title>
+<style>
+    body {
+        font: 14px Arial,sans-serif; 
+        margin: 0px;
+    }
+    header {
+        padding: 10px 20px;
+        background: #800000; 
+    }
+    header h1 {
+        font-size: 24px;
+    }
+    .container {
+        width: 100%;
+    }
+    nav, section {
+        float: left; 
+        padding: 20px;
+        min-height: 170px;
+        box-sizing: border-box;
+    }
+    section {
+        width: 80%;
+    }
+    nav {
+        width: 20%;          
+    }    
+    nav ul {
+        list-style: none; 
+        line-height: 24px;
+        padding: 0px; 
+    }
+    nav ul li a {
+        color: #333;
+    }
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    footer {           
+        text-align: center;
+        padding: 5px;
+    }
+	h2 {
+		font-weight:normal;
+		line-height: 25px; 
+	}
+	
+</style>
 </head>
-
 <body>
 
-<div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="penam.html">Mike</a>
-  <a href="page3.html">Ty</a>
-</div>
+    <div class="container">
+        <header>
+            <h1 style="color:white">Project 2 Page - Roberto Perez</h1>
+        </header>
+        <div class="wrapper clearfix">
+            <nav>
+                <ul style="font-family: Verdana; font-size: 20px;">
+                    <li style="margin: 20px;"><a href="index.html">Home</a></li>
+					<li style="margin: 20px;"><a href="penam.html">Mike</a></li>
+					<li style="margin: 20px;"><a href="HawkinsT.html">Ty</a></li>
+					<li style="margin: 20px;"><a href="robertsone.html">Emily</a></li>
+					<li style="margin: 20px;"><a href="brucen.html">Noah</a></li>
+					<li style="margin: 20px;"><a href="andersonc.html">Colleen</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1>Howdy! My name is Roberto Perez Escobar.</h1>
+                <h2>I'm a Technology Management student at Texas A&M, graduating in August. I have an interest in multiple different fields, including cybersecurity, computing, graphic design,
+				and photography. If technology is even slightly related, I'm open to learning more about any given subject. I enjoy thoroughly understanding not only how things work, but why.
+				In addition to educational and professional pursuits, I also do a bit of the following:</h2>
+				
+				<ul style="font-family: Verdana; font-size: 20px;">
+					<li>Learning to play guitar (going on three years or so).</li>
+					<li>Working on speaking Mandarin.</li>
+					<li>Fixing electronics, such as phones, retro consoles, and even some light mechanic work.</li>
+					
+				</ul>  
+				
+				<h2>I have 4 dogs, and I'm constantly hanging out with them. I come from a small town named Marble Falls, and most of my time is spent there. In general, I enjoy listening 
+				to music, working out, playing games, and hanging out with old friends.Below is a small demonstration of my doggies, a photograph I took, and a passion of mine.</h2>
 
-<table style='font-family:"Verdana"' width="200" border="0" align="center">
-  <tbody>
-    <tr>
-      <td>&nbsp;</td>
-      <td><img src="images/tamucs" width="500" height="300" alt=""/></td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    
-    <tr>
-      <td>&nbsp;</td>
-      <td align="center"><font size="+3" color="#800000"><p>Howdy!</p></font>
-			<font size="+3" color="blue">
-			<font size="+3" color="purple"><p>My name is Roberto Perez Escobar.</p></font>
-			<p>Welcome to my oldstyle website.</p></font>
 			
-	  <td>&nbsp;</td>
-    </tr>
-	<tr>
-      <td><img src="images/mydog" width="223" height="300" alt=""/> <p>This is my doggie.</p> </td>
-		<td>&nbsp;</td>
-      <td><img src="images/android" width="275" height="300" alt=""/>
-		<p>Android is my passion! </p> </td>
-    </tr>
-  </tbody>
-</table>
+				<img src="images/doggies.jpg" style='height: 25%; width: 25%; alt="A picture of my dogs."'/>
+				<img src="images/fire.jpg" style='height: 25%; width: 25%; alt="Some of my photography (this one is of a fire)."'/>
+				<img src="images/android.jpg" style='height: 33.3%; width: 33.3%; alt="A cool Android picture that I like."'/>
+			
+            </section>
+        </div>
+        <footer>
+            <h1>Thank you for visiting.</h1>
+        </footer>
+    </div>
 </body>
 </html>
